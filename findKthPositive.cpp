@@ -8,7 +8,7 @@ public:
         while (k) {
             if (index<arr.size()) {
                 if (arr[index] == current)
-                    current++;
+                    index++;
                 else {
                     k--;
                     answer = current;
